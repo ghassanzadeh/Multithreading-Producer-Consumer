@@ -106,7 +106,6 @@ char *deQueue() {
 	the critical section and make its operations atomic. Adding transaction works to the queue is placed inside the critical section.
 */
 void producer_thread(void *pno){
-	// Ayantha Randika Ponnamperuma Arachchige helped me with debugging the iteration issue in consumer_thread
 	// https://stackoverflow.com/questions/2125219/how-to-get-the-running-of-time-of-my-program-with-gettimeofday
 	// https://medium.com/@sohamshah456/producer-consumer-programming-with-c-d0d47b8f103f
 
@@ -173,7 +172,6 @@ void producer_thread(void *pno){
 	The consumer threads break out of the loop when both conditions of queue being empty and producer finished adding job to the queue are satisfied.
 */
 void *consumer_thread(void *cno){
-	// Ayantha Randika Ponnamperuma Arachchige helped me with debugging the iteration issue in consumer_thread
 	// https://stackoverflow.com/questions/2125219/how-to-get-the-running-of-time-of-my-program-with-gettimeofday
 	// https://medium.com/@sohamshah456/producer-consumer-programming-with-c-d0d47b8f103f
 

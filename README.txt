@@ -1,7 +1,3 @@
-Name: Golnoush Hassanzadeh
-Student ID: 1549621
-References: all references included in the sources code
-
 Running Instruction:
 after building using make command, please type:
 ./prodcon <numberofthreads> <fileid> < inputfile
